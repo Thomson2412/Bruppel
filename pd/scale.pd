@@ -1,0 +1,27 @@
+#N canvas 924 23 450 485 12;
+#X obj 51 321 tabwrite japanese;
+#X obj 70 269 unpack f f;
+#N canvas 0 22 450 278 (subpatch) 0;
+#X array japanese 5 float 3;
+#A 0 73.416 82.407 97.999 110 123.47;
+#X coords 0 150 5 0 200 140 1 0 0;
+#X restore 235 290 graph;
+#X msg 18 204 73.416 0;
+#X msg 155 148 82.407 1;
+#X msg 256 168 97.999 2;
+#X msg 105 206 110 3;
+#X msg 197 196 123.47 4;
+#X obj 151 79 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X connect 1 0 0 0;
+#X connect 1 1 0 1;
+#X connect 3 0 1 0;
+#X connect 4 0 1 0;
+#X connect 5 0 1 0;
+#X connect 6 0 1 0;
+#X connect 7 0 1 0;
+#X connect 8 0 4 0;
+#X connect 8 0 7 0;
+#X connect 8 0 6 0;
+#X connect 8 0 5 0;
+#X connect 8 0 3 0;
